@@ -37,7 +37,7 @@ body{
 .btn-primary-1{
     background-color:rgba(230,83,60,1.000) ;
     color: white;
-    width: 200px;
+    width: 210px;
     padding:16px 40px ;
     border-radius: 40px;
     border: none;
@@ -168,3 +168,53 @@ body{
     border-radius: 50%;
     margin-right: 10px;
 }
+/* .............habit section.......... */
+#habit{
+    margin-top: 5rem;
+    margin-bottom:5rem ;
+}
+.habit-description-container{
+    text-align: center;
+    margin-bottom:5px;
+}
+.habit-title{
+    margin-bottom: 10px;
+}
+.habit-img-continer{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 3.5rem;
+}
+
+.img-card{
+    text-align: center;
+}
+.habit-img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+/* .........Run section style.... */
+ .run-container{
+    background-color:#222222;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 18px;
+    
+    margin-bottom: 100px;
+}
+.run-title{
+    margin-bottom: 10px;
+}
+.run-btn{
+    margin-top: 25px;
+}
+.run-img{
+   border-radius: 18px;
+   width: 360px;
+   height: 310px;
+  object-fit:none;
+  object-position: 68% 32%;
+}  
