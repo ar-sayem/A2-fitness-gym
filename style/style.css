@@ -7,13 +7,52 @@ body{
     text-decoration: none;
     color: #fff;
     font-family: "Inter"  ;
+    box-sizing: border-box;
+
     
 
 }
-.container{      border: 2px solid green;
-    width: 90%;
+  .container{     
+     border: 2px solid green;  
+    width: 80%;
     margin: 0 auto;
 
+}
+
+
+/* ........shared style........ */
+.font-1{
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 80px;
+}
+.font-2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.font-3{
+    font-size: 1rem;
+    color: rgb(128,128,128);
+}
+.btn-primary-1{
+    background-color:rgba(230,83,60,1.000) ;
+    color: white;
+    width: 200px;
+    padding:16px 40px ;
+    border-radius: 40px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.btn-primary-2{
+    background-color:#0000 ;
+    color: white;
+    width: 210px;
+    padding:14px 30px ;
+    border-radius: 40px;
+    border:2px solid white;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 
 
@@ -33,7 +72,7 @@ body{
     font-size: 2.5rem;
     font-weight: 900;
     font-style:italic ;
-
+ 
 }
 .navlist ul{
     display: flex;
@@ -55,4 +94,77 @@ body{
 }
 .hamburger{
     display: none;
+}
+
+
+/* .......banner........ */
+#banner{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+/* .banner-text-container{
+    border: 2px solid red;
+
+} */
+.banner-title{   
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+#miami{
+    font-family:"Miama";
+    font-size: 7rem;
+    font-weight: normal;
+}
+.banner-text{
+    margin-bottom: 50px;    
+}
+.btn-primary-1{
+    margin-right: 15px;
+}
+.banner-img-container{
+     margin-right: 50px;
+    position: relative;
+}
+.banner-img-logo1{
+    width: 190px;
+    height: 100px;
+    background-color:rgba(255,255,255,.2);
+    border-radius: 15px;
+    padding: 10px 0 20px 20px;   
+    box-sizing: border-box;
+    position: absolute;  
+    left: 200px;
+    top: 130px;
+}
+.banner-img-logo2{
+    width: 190px;
+    height: 100px;
+    background-color:rgba(255,255,255,.2);
+    border-radius: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;   
+    box-sizing: border-box;
+   position: absolute;
+   bottom: 80px;
+   left: -100px;
+
+
+}
+.bnr-img-number1{
+    font-size:40px;
+    font-weight: 900;
+}
+.bnr-img-number2{
+    font-size:25px;
+    font-weight: 900;
+}
+.red-ball{
+    width: 40px;
+    height: 40px;
+    background-color:rgba(230,83,60,1.000);
+    border-radius: 50%;
+    margin-right: 10px;
 }
