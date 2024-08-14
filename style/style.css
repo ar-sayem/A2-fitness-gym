@@ -12,6 +12,7 @@ body{
     
 
 }
+
   .container{     
      /* border: 2px solid green;   */
     width: 80%;
@@ -246,15 +247,27 @@ body{
 .bmi-title{
     margin-bottom: 10px;
 }
+.bmi-container{
+    border: 2px solid red;
 
-.table-container{
-     background-color:#222222 ;
-    width:auto; 
-   padding: 50px 180PX;       
-   display: flex;   
-   justify-content: space-between; 
 }
 
+.table-container{ border: 2px solid green;
+     background-color:#222222 ;
+    width:80%; 
+    margin: 0 auto;
+   padding:50px ;  
+   box-sizing: border-box; 
+   display: flex;  
+   justify-content: space-between;  
+  
+}
+.table2{
+    width: 600px;
+}
+.table1,.table2{
+    border: 2px solid white;
+}
 
 .table{
     border-collapse: collapse;
@@ -270,16 +283,22 @@ body{
     padding-left: 15px;
     color: rgba(255, 255, 255, 0.5);
 }
+.table2{
+    margin-left:;
+}
 
 
 .form{
+    
     margin-top: 30px;
     margin-bottom: 20px;
+   
 }
+
 
 .input{
     height: 48px;
-    width: 280px;
+    width: 47%;
     border-radius: 8px;
     padding: 10px;
     border: none;
@@ -291,7 +310,7 @@ body{
     box-sizing: border-box;
 }
 .select1{height: 48px;
-width: 280px;
+width: 47%;
 border: none;
 padding: 10px 20px 10px 10px;
 border-radius: 8px;
@@ -302,7 +321,7 @@ color: white;
 
 
 .select2{height: 48px; border: none; 
-    width: 565px;
+    width: 95%;
     padding: 10px;
     border-radius: 8px;
     background-color: #383838;  color: white;
@@ -428,9 +447,17 @@ color: white;
     .contact-form-container{
         margin-left: 150px;
     }
+    .contact-form{
+        
+        width: 90%;
+    
+    }
     .contact-title {
         margin-bottom: -20px;
        
+    }
+    .contact-title2{
+        display: none;
     }
     .contact-hr{
         width: 400px;
@@ -445,7 +472,7 @@ color: white;
     }
 
     .contact-form .text{
-        width: 300px;
+        width: 200px;
         padding: 15px;
         margin-bottom: 8px;
         border: none;
@@ -455,7 +482,7 @@ color: white;
         background-color: #383838;
     }
     .contact-form .large-text{
-        width: 635px;
+        width:200 ;
         padding: 15px;
         margin-bottom: 8px;
         border: none;
@@ -466,7 +493,7 @@ color: white;
         background-color: #383838;
     }
     .contact-form .select{
-        width: 665px;
+        width: 100%;
         padding:15px;
         margin-bottom: 8px;
         border-radius: 5px;
@@ -636,34 +663,45 @@ color: white;
             margin-top: 30px;            
       
         }  
-        /* ...BMI..... */
+        /* .......................BMI............... */
          .bmi-title {
             font-size: 2.5rem;
 
-         }
-         .bmi-title-container{
-            text-align: left;
-            padding-left: 20px;
          }
          .table-title,.form-title{
             font-size: 1.5rem;
          }
 
-         /* .form-title p{
-            text-align:center;
-         } */
-         .table-container{
-            flex-direction: column;
-         }
-
+         .bmi-title-container{
+            text-align: left;
+            padding-left: 20px;
+         }         
+                 
          .table-container{
           flex-direction: column;
-          
+          width: 100%;
           padding: 20px 20PX;       
          
        }
+       .table1{
+        margin-bottom: 20px;
+       }
+       .table2{
+        width: 100%;
+       }
 
-       /* ....trainer section.... */
+
+       /* form part ..............*/
+       .table2 .input,.select1{
+        width:47%;
+       }
+       .table2 .select2{
+        width: 97%;
+       }
+
+    
+
+       /* ...........................trainer section.... */
          .team-title{
             font-size: 2.5rem;
          }
@@ -685,7 +723,7 @@ color: white;
             height: 270px;
 
         }
-        /* ......pricing section...... */
+        /* ........................pricing section...... */
         #pricing-container{
            
          
@@ -710,7 +748,7 @@ color: white;
     
 
  }
- /* contact section */
+ /* .........................contact section.......... */
  #contact{
     flex-direction: column-reverse;
     width:95%;
@@ -728,7 +766,16 @@ color: white;
     padding: 20px;
 }
 .contact-title{
+    display: none;
+}
+.contact-title2{
+    display: block;
     font-size: 2rem;
+    text-align: center;
+    
+}
+.contact-title2 h3{
+    margin-bottom: -10px;
 }
 .contact-sub-title{
     font-size: 1.5rem;
@@ -736,21 +783,22 @@ color: white;
 .contact-form .select{
     width: 100%;}
     .contact-form .text{
-        width:285px;
+        width:90%;
     }
     .contact-form .large-text{
-        width: 285px;
+        width: 90%;
     }
 
     .contact-img {
-        width: 95%;
+        width: 90%;
         height: 350px;
         margin-top: 0px;
         border: 2px solid rgba(230,83,60,1.000);
         border-radius: 18px;
        }
        .contact-img img{
-        width: 100%;
+        width: 90%;
+        margin: 0 au;
         height: 100%;
         object-fit: cover;
         border-radius: 18px;
