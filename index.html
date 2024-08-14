@@ -32,7 +32,7 @@
         <div class="banner-img-container">
             <div class="banner-img-logo1"><span class="bnr-img-number1">500+</span> <br><span class="bnr-img-txt">Free workout videos</span></div>
 
-            <img src="../assets/images 2.png" alt="">
+            <img src="./assets/images 2.png" alt="">
 
             <div class="banner-img-logo2"> <div class="red-ball"></div><div class=""><span class="bnr-img-number2">350+</span> <br><span class="bnr-img-txt">Video tutorial</span></div></div>
 
@@ -94,35 +94,38 @@
 
        <!-- ....BMI section start...... -->
        <section id="BMI" class="">
-
+        <div class="bmi-container">
+            
         <div class="bmi-title-container"> <h3 class="bmi-title font-2">BMI Calculator</h3>
-         <p class="font-3">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p></div>
+            <p class="font-3">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p></div>
+   
+            <div class="table-container">
+                <div >
+                    <h3 class="table-title font-4 ">BMI Calculator Chart</h3><br>
+                    <table class="table">
+                        <tr><th>BMI</th><th>Weight Status</th></tr>
+                        <tr><td>Below 18.5</td><td>Underweight</td></tr>
+                        <tr><td>18.5 - 24.9</td><td>Healthy</td></tr>
+                        <tr><td>25.0 - 29.9</td><td>Overweight</td></tr>
+                        <tr><td>30.0 - and Above</td><td>Obese</td></tr>
+                    </table>
+                </div>
+   
+               <div class="table2">
+                       <h3 class="form-title font-4">Calculate your BMI</h3>
+                        <p class="font-3">We believe fitness should be accessible to everyone,<br> everywhere, regardless of income or access to a gym. </p>
+   
+                  <div class="form">
+                   <div class=""> <input class="input" type=" text" placeholder="Height/cm"><input class="input"  type="text"  placeholder="Weight/kg"><br></div>
+                    <input class="input"  type=" text" placeholder="Age"><select class="select1"><option  value="">male</option>
+                 <option value="">Female</option><option value=""></option>other</select><br>
+                    <select  class="select2" name="" id="activity" ><option value="">Select an activity factor</option></select>
+                  </div>
+                  <button class="btn-primary-1">Claculate</button>
+   
+            </div>
+        </div>
 
-         <div class="table-container">
-             <div >
-                 <h3 class="table-title font-4 ">BMI Calculator Chart</h3><br>
-                 <table class="table">
-                     <tr><th>BMI</th><th>Weight Status</th></tr>
-                     <tr><td>Below 18.5</td><td>Underweight</td></tr>
-                     <tr><td>18.5 - 24.9</td><td>Healthy</td></tr>
-                     <tr><td>25.0 - 29.9</td><td>Overweight</td></tr>
-                     <tr><td>30.0 - and Above</td><td>Obese</td></tr>
-                 </table>
-             </div>
-
-            <div class="table2">
-                    <h3 class="form-title font-4">Calculate your BMI</h3>
-                     <p class="font-3">We believe fitness should be accessible to everyone,<br> everywhere, regardless of income or access to a gym. </p>
-
-               <div class="form">
-                <div class=""> <input class="input" type=" text" placeholder="Height/cm"><input class="input"  type="text"  placeholder="Weight/kg"><br></div>
-                 <input class="input"  type=" text" placeholder="Age"><select class="select1"><option  value="">male</option>
-              <option value="">Female</option><option value=""></option>other</select><br>
-                 <select  class="select2" name="" id="activity" ><option value="">Select an activity factor</option></select>
-               </div>
-               <button class="btn-primary-1">Claculate</button>
-
-         </div>
         </section>
         <!-- ........BMI section end ........-->
 
@@ -197,32 +200,35 @@
 
          </section>
          <!-- trainer-section end -->
-          <!-- creative section start -->
+          <!-- contact section start -->
            <section id="contact" class="container">
-            <div class="contact title"><h3 class="font-2">Contact Fitness</h3>
+            <div class="contact-title-container"><h3 class="contact-title font-2">CONTACT FORM</h3>
                 <h4 class="font-4"> Have a <span>question?</span></h4>
-                 <hr>
-                <p>
+                <div class="contact-hr"> <hr></div>
+                <p class="font-3">
                     Let us know! Fill out the form below and we'll be in touch.</p>
             </div>
             <div class="contact-form">
                 <form action="contact">
                     <label for="">
-                        <input type="text" placeholder=" First Name">
+                        <input class="text" type="text" placeholder=" First Name">
                     </label>
-                    <label for=""><input type="text"  placeholder="Last Name"></label> <br>
+                    <label for=""><input class="text" type="text"  placeholder="Last Name"></label> <br>
 
                     <label for="">
-                        <input type="text"  placeholder="Email">
+                        <input class="text" type="text"  placeholder="Email">
                     </label>
-                    <label for=""><input type="text"  placeholder="Phone"></label> <br>
+                    <label for=""><input class="text" type="text"  placeholder="Phone"></label> <br>
 
                     <label for="">
-                        <select name="" id="">
-                            <option value="">Choose a location</option>
+                        <select class="select" name="" id="">
+                            <option class="option"  value="">Choose a location</option>
+                            <option value="">Dhaka</option>
+                            <option value="">Chattogtam</option>
                         </select> <br>
                         <label for="">
-                            <input type="text"  placeholder="Message"> <br>
+                            <textarea class="large-text" name="" id=""  placeholder="Message"></textarea>
+                             <br>
 
                             <button class="btn-primary-1">Submit</button>
                         </label>
@@ -275,7 +281,7 @@
                 </div>
                
             </div>
-            <hr>
+            <div class="footer"> <hr></div>
             <div class="copyright font-3">
                 All right reserved @Fitness 2024
             </div>

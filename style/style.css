@@ -231,6 +231,7 @@ body{
 #BMI{
     width: 100%;
     margin: 0 auto;
+ 
     
 
 }
@@ -345,6 +346,66 @@ color: white;
         line-height:10px;
         font-weight:700 ;
     }
+    /* ............contact section........... */
+    .contact-title {
+        margin-bottom: -20px;
+       
+    }
+    .contact-hr{
+        width: 400px;
+       text-align: start;
+       margin-top: 5px;
+    }
+    .contact-title-container span{
+        color: rgba(230,83,60,1.000);
+    }
+    .contact-title-container h4{
+        margin-bottom:20px ;
+    }
+
+    .contact-form .text{
+        width: 300px;
+        padding: 15px;
+        margin-bottom: 8px;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        color: #fff;
+        background-color: #383838;
+    }
+    .contact-form .large-text{
+        width: 635px;
+        padding: 15px;
+        margin-bottom: 8px;
+        border: none;
+        border-radius: 5px;
+        height: 70px;
+        font-size: 18px; 
+        color: #fff;
+        background-color: #383838;
+    }
+    .contact-form .select{
+        width: 665px;
+        padding:15px;
+        margin-bottom: 8px;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+        /* color: rgba(230,83,60,1.000);  */
+
+        background-color: #383838;
+    }
+    .contact-form .select {
+       color: #fff;
+
+    }
+   
+
+       
+
+
+    
+  
 
 
 
@@ -365,7 +426,7 @@ color: white;
     .foot-box1-title{
         color:rgba(230,83,60,1.000);
     }
-    hr{
+    .footer hr{
         width: 70%;
         margin: 0 auto;
     }
