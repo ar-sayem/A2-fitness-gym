@@ -348,3 +348,35 @@ color: white;
 
 
 
+
+    /* ....................footer section.......... */
+    footer{
+        width: 100%;
+        background-color: #222222;
+        margin-top: 100px;
+    }
+    .footer-container{
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+    }
+    .foot-box1-title{
+        color:rgba(230,83,60,1.000);
+    }
+    hr{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .copyright{
+        text-align: center;
+        padding: 35px;
+    }
+    .foot-box3,.foot-box2, li{
+        margin-bottom: 15px;
+        list-style-type:none; 
+    }
+
+
+
